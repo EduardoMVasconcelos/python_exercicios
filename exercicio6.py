@@ -3,5 +3,5 @@ ponto = "*"
 contador = 1
 
 while contador > 0:
-    print((ponto * numero))
+    print(ponto * numero)
     contador = 0

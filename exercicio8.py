@@ -1,5 +1,11 @@
-numero = 1
+n = 1
+contador = 1 
+soma = 0
 
-while numero != 0:
-    numeros = int(input("Digite o numero: "))
-    numero = numeros
+while n > 0:
+    numeros = int(input(f"Informe o {contador}º numero: "))
+    n = numeros
+    contador = contador + 1
+    soma = soma + numeros
+    
+print(f"A soma dos numeros é de: {soma}")

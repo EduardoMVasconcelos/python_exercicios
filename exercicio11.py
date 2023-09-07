@@ -1,5 +1,9 @@
-numero = int(input("Digite um numero inteiro: "))
-contador = 1
+resultado=1
+contador=1
+numero = int(input("Fatorial de: ") )
 
-while numero  <= numero:
-    print(f"{numero} x {numero} é = {numero}")
+while contador <= numero:
+    resultado = resultado * contador
+    contador = contador + 1
+
+print(resultado)

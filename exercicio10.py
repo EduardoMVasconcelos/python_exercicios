@@ -1,13 +1,14 @@
+contador = 1
+n = 1
+soma = 0
 print("Mercearia")
 
-contador = 1  
-
 while contador > 0:
-    preco = float(input("R$ "))
-    contador = preco
+    valor = float(input(f"Produto {n}: R$ "))
+    contador = valor
+    soma = soma + valor
+    n = n + 1 
     
-
-print(contador)
+print(f"Total: R$ {soma}")
 dinheiro = float(input("Dinheiro: R$ "))
-print(f"Troco: R$ {dinheiro-preco}")
-
+print(f"Troco {dinheiro-soma}")
